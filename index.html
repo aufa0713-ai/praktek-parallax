@@ -20,19 +20,74 @@
     </header>
 
     <section id="parrallax">
-        <div><img src="./asets/img/Clouds.png" id="Clouds" /></div>
-        <div><img src="./asets/img/Mountains.png" id="Mountains" /></div>
-        <div class="discover">
-          <h1>DISCOVER</h1>
-          <p class="country">SWITZERLAND</p>
-          <p class="scroll">SCROLL</p>
-          <div class="line"></div>
-        </div>
+      <div><img src="./asets/img/Clouds.png" id="Clouds" /></div>
+      <div><img src="./asets/img/Mountains.png" id="Mountains" /></div>
+      <div class="discover">
+        <h1>DISCOVER</h1>
+        <p class="country">SWITZERLAND</p>
+        <p class="scroll">SCROLL</p>
+        <div class="line"></div>
+      </div>
     </section>
+    <div class="container-about">
+      <div class="card-one">
+        <div class="wrap-img">
+          <img src="./asets/rounded.png" alt="" />
+        </div>
+        <div class="text-card">
+          <h3>Headline</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quis
+            hic cum atque.
+          </p>
+          <button>See more</button>
+        </div>
+      </div>
 
-    <footer></footer>
+      <div class="card-one">
+        <div class="wrap-img">
+          <img src="./asets/rounded.png" alt="" />
+        </div>
+        <div class="text-card">
+          <h3>Headline</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quis
+            hic cum atque.
+          </p>
+          <button>See more</button>
+        </div>
+      </div>
+
+      <div class="card-one">
+        <div class="wrap-img">
+          <img src="./asets/rounded.png" alt="" />
+        </div>
+        <div class="text-card">
+          <h3>Headline</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quis
+            hic cum atque.
+          </p>
+          <button>See more</button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>© 2025 Cosmos. All rights reserved.</p>
+    </footer>
 
     <section id="about"></section>
     <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.4/dist/confetti.browser.min.js"></script>
+    <script>
+      window.onload = function () {
+        confetti({
+          particleCount: 500,
+          spread: 7000,
+          origin: { y: 0.4 },
+        });
+      };
+    </script>
   </body>
 </html>

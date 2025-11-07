@@ -1,18 +1,18 @@
 @font-face {
-    font-family: 'Ogg';
-    src: url(./asets/Ogg-Regular.otf);
+  font-family: "Ogg";
+  src: url(./asets/Ogg-Regular.otf);
 }
 
-body{
-    background-color: #f9f9f9;
-    overflow-x: hidden;
-    font-family: 'Ogg';
+body {
+  background-color: #f9f9f9;
+  overflow-x: hidden;
+  font-family: "Ogg";
 }
 
-.cosmos{
-    letter-spacing: 10px;
-    font-weight: 100;
-    margin-top: 0;
+.cosmos {
+  letter-spacing: 10px;
+  font-weight: 100;
+  margin-top: 0;
 }
 
 header {
@@ -26,48 +26,45 @@ header {
   left: 0;
   z-index: 100;
   justify-content: space-between;
-
 }
-nav{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-top: -12px;
-}
-
-.text{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 30%;
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -12px;
 }
 
-.navigation a{
-    text-decoration: none;
-    color: black;
+.text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
 }
 
-.navigation{
-    display: flex;
-    gap: 30px;
-    margin-right: 270px;
-    color: black;
-
+.navigation a {
+  text-decoration: none;
+  color: black;
 }
 
-button{
-    background-color: black;
-    color: white;
-    border-radius: 50px;
-    width: 80px;
-    height: 35px;
-    font-family: 'ogg';
+.navigation {
+  display: flex;
+  gap: 30px;
+  margin-right: 270px;
+  color: black;
 }
 
-#parrallax{
-   position: relative;
-    
+.navigation button {
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+  width: 80px;
+  height: 35px;
+  font-family: "ogg";
+}
+
+#parrallax {
+  position: relative;
 }
 
 #parrallax img {
@@ -75,59 +72,103 @@ button{
   top: 0;
   left: 0;
   width: 100%;
-  
+
   /* height: 100%; */
   object-fit: cover;
- 
 }
-#Clouds{
-    z-index: 1;
-
+#Clouds {
+  z-index: 1;
 }
 
-#about{
+/* #about{
     height: 300vh;
     background-color: #080f0e;
+} */
+
+.discover h1 {
+  letter-spacing: 10px;
+  font-weight: 100;
+  margin-top: 200px;
+  font-size: 30px;
 }
 
-.discover h1{
-    letter-spacing: 10px;
-    font-weight: 100;
-    margin-top: 200px;
-    font-size: 30px;
+.discover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
 }
 
-.discover{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    z-index: 2;
+.country {
+  font-size: 50px;
+  letter-spacing: 40px;
 }
 
-.country{
-    font-size: 50px;
-    letter-spacing: 40px;
+.scroll {
+  color: white;
+  font-size: 30px;
+  letter-spacing: 10px;
+  margin-top: 100px;
 }
 
-.scroll{
-    color: white;
-    font-size: 30px;
-    letter-spacing: 10px;
-    margin-top: 100px;
+.line {
+  width: 100px;
+  height: 0;
+  background-color: white;
+  position: relative;
+  z-index: 2;
 }
 
-.line{
-    width: 100px;
-    height: 0;
-    background-color: white;
-    position: relative;
-    z-index: 2;
+#Clouds {
+  /* width: 250%; */
+  transform: scale(2.5);
 }
 
-#Clouds{
-    /* width: 250%; */
-   transform: scale(2.5);
+.container-about {
+  margin: 100px 5%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
 }
 
+.wrap-img img {
+  width: 100%;
+}
+
+.wrap-img {
+  width: 100%;
+}
+
+.card-one {
+  width: 28%;
+  background-color: bisque;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.text-card button {
+  padding: 12px 24px;
+  background-color: #4c6fff;
+  border: none;
+  color: white;
+  border-radius: 12px;
+}
+
+.text-card {
+  padding: 12px;
+}
+
+.text-card p {
+  margin: 12px 0;
+  color: grey;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
