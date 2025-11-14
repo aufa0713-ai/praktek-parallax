@@ -99,11 +99,13 @@ nav {
   justify-content: center;
   position: relative;
   z-index: 2;
+  max-height: 100vh;
 }
 
 .country {
   font-size: 50px;
   letter-spacing: 40px;
+  
 }
 
 .scroll {
